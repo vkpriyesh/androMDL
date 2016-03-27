@@ -72,9 +72,9 @@ a img{
   background-color: white;
 }
 
-//edited here
+/*edited here*/
   .android-header .material-icons {
-    color: #887777 !important;
+    color: #348cb2 !important;
   }
 
   .android-header .mdl-layout__drawer-button {
@@ -106,6 +106,8 @@ a img{
         -ms-flex-pack: end;
             justify-content: flex-end;
     width: 800px;
+    /*edited here*/
+    color: yellow;
   }
 
   .android-search-box.is-focused + .android-navigation-container {
@@ -126,12 +128,14 @@ a img{
       border-bottom: 4px solid #8bc34a;
     }
 
+/*edited here*/
   .android-search-box {
     -webkit-order: 2;
         -ms-flex-order: 2;
             order: 2;
     margin-left: 16px;
     margin-right: 16px;
+    border-radius: 100;
   }
 
   .android-more-button {
